@@ -3,3 +3,103 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+/* General */
+*, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    background: #805215;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+h2{
+    text-align: center;
+    padding: 0.5em 
+}
+
+p{
+    padding: 0 1em;
+}
+
+/* Header */
+header{
+    background-color: #FFDBAA;
+    height: 6em;
+    border-bottom: solid 1px #000;
+    position: relative;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #553100;
+    position: absolute;
+    top: 0.75em;
+    left: 1em;
+}
+
+.navButtons{
+    float:right;
+    height: 3em;
+    width: 6em;
+    text-transform: uppercase;
+    border: none;
+    margin: 1em 1em;
+}
+.navButtons:first-child{
+    margin-right: 4em;
+}
+
+/* Main */
+main{
+    background-color: #D4A76A;
+    height: calc(100% - 6em);
+}
+
+section{
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.largeButton{
+    width: calc(100% - 2em);
+    margin: 1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3em;
+    border: solid 1px #000;
+}
+
+.topThree{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.highlights{
+    width: 18em;
+    height: 12em;
+    margin: 0 auto;
+}
+
+.about{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.about p{
+    padding-bottom: 5em;
+}
